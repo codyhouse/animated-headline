@@ -406,6 +406,9 @@ xrotate-2
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.cd-headline.rotate-2 b {
+  opacity: 0;
+}
 .cd-headline.rotate-2 i {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -892,6 +895,9 @@ xrotate-3
   -moz-perspective: 300px;
   perspective: 300px;
 }
+.cd-headline.rotate-3 b {
+  opacity: 0;
+}
 .cd-headline.rotate-3 i {
   display: inline-block;
   -webkit-transform: rotateY(180deg);
@@ -1002,6 +1008,9 @@ xrotate-3
 xscale 
 
 -------------------------------- */
+.cd-headline.scale b {
+  opacity: 0;
+}
 .cd-headline.scale i {
   display: inline-block;
   opacity: 0;

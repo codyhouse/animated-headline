@@ -287,6 +287,10 @@ xrotate-2
 		@include backface-visibility(hidden);
 	}
 
+	b {
+		opacity: 0;
+	}
+
 	i {
 		@include transform-style(preserve-3d);
 		@include transform(translateZ(-20px) rotateX(90deg));
@@ -573,6 +577,10 @@ xrotate-3
 		@include perspective(300px);
 	}
 
+	b {
+		opacity: 0;
+	}
+
 	i {
 		display: inline-block;
 		@include transform(rotateY(180deg));
@@ -589,10 +597,6 @@ xrotate-3
 		&.out {
 			@include animation(cd-rotate-3-out .6s forwards);
 		}
-	}
-
-	em {
-
 	}
 }
 
@@ -632,6 +636,10 @@ xscale
 -------------------------------- */
 
 .cd-headline.scale {
+
+	b {
+		opacity: 0;
+	}
 
 	i {
 		display: inline-block;
