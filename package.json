@@ -1,0 +1,9 @@
+{
+  "name": "animated-headline",
+  "version": "1.0.0",
+  "description": "CSS animated headlines",
+  "main": "index.html",
+  "repository": "git@github.com:ridown/animated-headline.git",
+  "author": "CodyHouse",
+  "license": "MIT"
+}
