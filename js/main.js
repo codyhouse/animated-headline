@@ -30,6 +30,7 @@ jQuery(document).ready(function($){
 				letters = word.text().split(''),
 				selected = word.hasClass('is-visible');
 			for (i in letters) {
+				if(letters[i] == ' ') letters[i] = '&nbsp;';
 				if(word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
 				letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
 			}
